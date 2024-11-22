@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     return;
   }
 
-  fetch("http://13.233.90.33:5000/optimize", {
+  fetch("https://13.233.90.33/optimize", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
